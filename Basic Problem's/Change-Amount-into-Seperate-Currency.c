@@ -3,7 +3,6 @@
 int main() {
 
     int amount ;
-    
     printf("Enter Money : ");
     scanf("%d", &amount);
     
