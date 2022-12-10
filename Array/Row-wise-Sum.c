@@ -45,7 +45,7 @@ int main(){
 	
 	for(int i = 0 ;  i < 3 ; i++)
 	{
-		printf("Sum of %d Row = %d\n", i, c[i]);
+		printf("Sum of %d Row = %d\n", i+1, c[i]);
 	}
 	
 	return 0 ;
