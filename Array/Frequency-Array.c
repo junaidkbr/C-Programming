@@ -12,7 +12,7 @@ int main(){
 	
 	for(int i = 0 ; i < num ; i++)
 	{
-		scanf("%d", a[i]);
+		scanf("%d", &a[i]);
 	}
 	
 	int max = a[0] ;
@@ -28,14 +28,14 @@ int main(){
 	int frequency[max+1];
 	int x = 0 ;
 	
-	for(int i = 0 ; i < max+1 ; i++) 
+	for(int j = 0 ; j < max+1 ; j++) 
 	{
 	
 	int count = 0 ; 
 	
-	for(int i = 0 ; i < num ; i++) 
+	for(int k = 0 ; k < num ; k++) 
 	{
-		if ( x == a[i])
+		if ( x == a[k])
 		count++ ;
 	}
 	
